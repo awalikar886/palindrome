@@ -1,8 +1,9 @@
 def palindrome(text):
   if text==text[::-1]:
+    (
     print("palindrome")
   else:
-    print("not palindrome")
+    print("not palindrome"))
     result = (
         f"text: {text}\n"
     )
